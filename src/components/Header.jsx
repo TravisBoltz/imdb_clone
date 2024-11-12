@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <section className="flex justify-between items-center p-3 sm:w-6xl dark:bg-[#121212] mx-auto">
+    <section className="flex justify-between items-center p-3  dark:bg-[#121212] mx-auto">
       <div className="flex gap-4">
         <MenuItem title="Home" address="/" Icon={FaHome} />
         <MenuItem title="About" address="/about" Icon={BsFillInfoCircleFill} />
@@ -16,7 +16,9 @@ export default function Header() {
         <DarkModeSwitch />
         <Link href="/">
           <div className="flex gap-1 items-center">
-            <span className="bg-main font-bold text-gray-900 py-1 px-2 rounded ">IMBb</span>
+            <span className="bg-main font-bold text-gray-900 py-1 px-2 rounded ">
+              IMBb
+            </span>
             <span className="font-semibold">Clone</span>
           </div>
         </Link>
