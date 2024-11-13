@@ -20,7 +20,7 @@ export default async function Home({
   );
   const data = res.data;
   const results = data.results;
-  console.log(results)
+  // console.log(results)
   return <div>
     <Results results={results}/>
   </div>;
